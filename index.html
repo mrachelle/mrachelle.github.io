@@ -1,215 +1,398 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-			<link rel="stylesheet" href="shared.css">
-		
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	</head>
-			
-	<!-- navbar -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="sidenav">
+	<title>M. Rachelle Raymundo</title>
+<!--
 
-  <a href="#about">About</a>
-  <a href="#tools">My Tools</a>
-  <a href="#skills">My Skills</a>
-  <a href="#contact">Contact</a>
-</div>
+Template 2102 Constructive
 
-	<div class="main">
-	  <h2>Auto Sidebar</h2>
-	  <br>
-	  <center><p class="text-success">My name is Rachelle Raymundo. Learning is my passion, technology being my main interest. I have a strong background in project management and customer relations. Currently searching for a position in Web Development either remotely or locally.<div id="about"><a href="#about"></a></p></center>
-  </div>  
+http://www.tooplate.com/view/2102-constructive
 
-<div class="main">
+-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="css/tooplate-style.css">
 
-			<div class="container">
-				<nav class="navbar navbar-dark bg-dark fixed-top navtext">
-				  <a class="navbar-brand" href="#">M. Rachelle Raymundo</a>
-					  <ul class="nav-item active">
-					<span class="navbar-text">
-					Software Developer
-				</nav>
-			</div>
-				<!-- /navbar -->
+	<script>
+		var renderPage = true;
 
-			<div id="home">
-				<div class="container">
-					<div class="text-center">
-					</div>
+	if(navigator.userAgent.indexOf('MSIE')!==-1
+		|| navigator.appVersion.indexOf('Trident/') > 0){
+   		/* Microsoft Internet Explorer detected in. */
+   		alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+   		renderPage = false;
+	}
+	</script>
+</head>
+
+<body>
+	<!-- Loader -->
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	
+	<!-- Page Content -->
+	<div class="container-fluid tm-main">
+		<div class="row tm-main-row">
+
+			<!-- Sidebar -->
+			<div id="tmSideBar" class="col-xl-3 col-lg-4 col-md-12 col-sm-12 sidebar">
+
+				<button id="tmMainNavToggle" class="menu-icon">&#9776;</button>
+
+				<div class="inner">
+					<nav id="tmMainNav" class="tm-main-nav">
+						<ul>
+							<li>
+								<a href="#intro" id="tmNavLink1" class="scrolly active" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-1">
+									<i class="fas fa-hand-peace tm-nav-fa-icon"></i>
+									<span>Introduction</span>
+								</a>
+							</li>
+							<li>
+								<a href="#products" id="tmNavLink2" class="scrolly" data-bg-img="constructive_bg_02.jpg" data-page="#tm-section-2" data-page-type="carousel">
+									<i class="far fa-newspaper tm-nav-fa-icon"></i>
+									<span>Skills</span>
+								</a>
+							</li>							
+							<li>
+								<a href="#company" class="scrolly" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
+									<i class="far fa-handshake tm-nav-fa-icon"></i>
+									<span>Experience</span>
+								</a>
+							</li>
+							<li>
+								<a href="#contact" class="scrolly" data-bg-img="constructive_bg_04.jpg" data-page="#tm-section-4">
+									<i class="fas fa-comments tm-nav-fa-icon"></i>
+									<span>Contact</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
-		 
-		 
-		<!-- body -->
-		<div id="tools"><a href="#tools"></a>
-		<br>
-		<br>
-		<br>
-		<h2> My Tools</h2>
-		<br>
-		<br>
-		<br>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm">
-					<div class="media">
-						<img class="mr-3" src="https://i.imgur.com/z3t8NTG.png" alt="Generic placeholder image">
-						<div class="media-body">
-							<h5 class="mt-0">HTML and CSS</h5>
-							two of the core technologies for building Web pages. HTML builds the structure and CSS addes some flavor to it						</div>
-					</div>
-				</div>
-				<div class="col-sm">
-					<div class="media">
-						<img class="mr-3" src="https://i.imgur.com/nKsfy4a.png" alt="Generic placeholder image">
-						<div class="media-body">
-							<h5 class="mt-0">JavaScript</h5>
-							a very versatile, popular programming language
+
+			<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 tm-content">
+
+					<!-- section 1 -->
+					<section id="tm-section-1" class="tm-section">
+						<div class="ml-auto">
+							<header class="mb-4"><h1 class="tm-text-shadow">Web Developer</h1></header>
+									<div class="media tm-bg-transparent-black tm-border-white">
+										<p class="mb-5 tm-font-big">My name is Rachelle Raymundo. Learning is my passion, technology being my main interest. I have a strong background in leadership and customer relations. Currently residing in the beautiful city of Denver, Colorado. Go Nuggets! </p>
+										<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a> 
+									</div>
+							<!-- data-nav-link holds the ID of nav item, which means this link should behave the same as that nav item  -->
 						</div>
-					</div>
-				</div>
+					</section>
 
+					<!-- section 2 -->
+					<section id="tm-section-2" class="tm-section tm-section-carousel">
+						<div>
+							<header class="mb-4"><h2 class="tm-text-shadow">My Toolset</h2></header>		            
+							<div class="tm-img-container">
+								<div class="tm-img-slider">
+									<div class="media tm-bg-transparent-black tm-border-white">
+										<i class="fab fa-html5 mr-4 tm-icon-circled tm-icon-media"></i>	
+										<div class="media-body">
+											<h5>HTML and CSS</h5>
+											<p>two of the core technologies for building Web pages. HTML builds the structure and CSS adds some flavor to it</p>			</div>
+									</div>
+									<div class="media tm-bg-transparent-black tm-border-white">
+										<i class="fas fa-code mr-4 tm-icon-circled tm-icon-media"></i>	
+										<div class="media-body">
+											<h5>C# and .NET Framework</h5>
+											<br>
+											<p>object-oriented, strong programming language</p>
+										</div>
+									</div>
+									<div class="media tm-bg-transparent-black tm-border-white">
+										<i class="fab fa-github mr-4 tm-icon-circled tm-icon-media"></i>	
+										<div class="media-body">
+											<h5>Version Control</h5>
+											<p>GitHub is the world's leading software development. GitHub is a system designed for tracking changes in software code</p>
+										</div>
+									</div>
+									<div class="media tm-bg-transparent-black tm-border-white">
+										<i class="fas fa-database mr-4 tm-icon-circled tm-icon-media"></i>	
+										<div class="media-body">
+											<h5>Database and SQL</h5>
+											<p>a query language, the standard language for relational database manage systems</p>
+										</div>
+									</div>
+									<div class="media tm-bg-transparent-black tm-border-white">
+										<i class="fab fa-js mr-4 tm-icon-circled tm-icon-media"></i>	
+										<div class="media-body">
+											<h5>JavaScript</h5>
+											<p>a very versatile, popular programming language</p>
+										</div>
+									</div>
+								</div>
+							</div>		            		          
+						</div>       		          	
+					</section>
 
-				<div class="col-sm">
-					<div class="media">
-						<img class="mr-3" src="https://i.imgur.com/JelFPmk.png" alt="Generic placeholder image">
-						<div class="media-body">
-							<h5 class="mt-0">Version Control</h5>
-							GitHub is the world's leading software development. GitHub is a system designed for tracking changes in software code						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm">
-					<div class="media">
-						<img class="mr-3" src="https://i.imgur.com/0ndL0gl.png" alt="Generic placeholder image">
-						<div class="media-body">
-							<h5 class="mt-0">C# and .Net Framework</h5>
-							object-oriented, strong programming language
+					<!-- section 3 -->
+					<section id="tm-section-3" class="tm-section">						
+						<div class="row mb-4">
+							<header class="col-xl-12"><h2 class="tm-text-shadow">My Experience</h2></header>		
 						</div>
-					</div>
-				</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas fa-plane tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Globus Family of Brands</h3>
+										<p>April 2018-Current, TA Sales and Services</p>
+										<p>Responsibilities include conflict resolution, building new invoices with agents, while maintaining good working relationships.</p>	
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas fa-assistive-listening-systems mr-4 tm-icon-circled tm-icon-media"></i>	
+									<div class="media-body">
+										<h3>Captel Service Specialists</h3>
+										<p>March 2015-April 2018, Supervisor</p>
+										<p>Oversaw a team of 18 employees. Performed daily, monthly, and yearly reviews to ensure my team was meeting and exceeding the standard</p>	
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas fa-pencil-alt mr-4 tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Kumon Math and Reading Center</h3>
+										<p>April 2012-November 2014, Assistant Center Director</p>
+										<p>Oversaw center staff. Assisted director in planning and implementing personalized learning programs for attendees. </p>		
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas fa-paw mr-4 tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Additional Experience</h3>
+										<p>US Navy, Seaman</p>	
+										<p>Pet Alliance of Greater Orlando, Volunteer/Kitten Cuddler/Dog Walker</p>
+									</div>
+								</div>
+							</div>			          		
+						</div>						               
+					</section>
 
-				<div class="col-sm">
-					<div class="media">
-						<img class="mr-3" src="https://i.imgur.com/nvtW4Ah.png" alt="Generic placeholder image">
-						<div class="media-body">
-							<h5 class="mt-0">Database and SQL</h5>
-							a query language, the standard language for relational database manage systems 
+					<!-- section 4 -->
+					<section id="tm-section-4" class="tm-section">
+						<div class="media tm-bg-transparent-black tm-border-white">
+							<div class="row mb-4">
+								<header class="col-xl-12"><h2 class="tm-text-shadow"><strong>Contact Information</strong></h2></header>	
+							</div>
+							<div class="row">
+							<div class="tm-bg-transparent-black tm-contact-box-pad">
+											<p><strong>Email: </strong> MRachelleRaymundo@Gmail.com</p>
+											<p><strong>Phone: </strong> 720-623-8003</p>
+											<p>Check out my <a href="https://github.com/mrachelle">GitHub Page</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-		
-				<div class="col-sm">
-					<div class="media">
-						<img class="mr-3" src="" alt="">
-						<div class="media-body">
-						<h5 class="mt-0">    </h5>
-							                        
-					</div>
-				</div>
-			</div>
+					</section>					
+				</div>	<!-- .tm-content -->							
+				<footer class="footer-link">
+					<p class="tm-copyright-text">Copyright &copy; 2018 Constructive Co. Ltd. - Design: <a href="https://www.facebook.com/tooplate" target="_parent">Tooplate</a></p>
+				</footer>
+			</div>	<!-- row -->			
 		</div>
+		<div id="preload-01"></div>
+		<div id="preload-02"></div>
+		<div id="preload-03"></div>
+		<div id="preload-04"></div>
 
-			
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
 
-<br>
-<br>
-		<h2> My Skills</h2>
+		<script>
 
-<br>
-<br>
-		<div id="skills"><a href="#skills"></a>
-		<div class="container">
-		  <div class="row">
-			<div class="col-sm alert alert-primary" role="alert">
-			  <h4> Who I Am</h4>
-			  <li>Collaborative work style</li>
-			  <li>Detail Oriented</li>
-			  <li>Reliable</li>
-			  <li>Strong dedication to customer satisfaction</li>
-			</div>
-			<div class="col-sm alert alert-secondary" role="alert">
-				  <h4><center>Where We Meet</center></h4>
-			  <sub><center>aka the INNER JOIN</center></sub>
-				<br>
-			  <li>Focused on clients and the bigger picture</li>
-			  <li>Collaborative team environment</li>
-			</div>
-			<div class="col-sm alert alert-danger" role="alert">
-				<div align="right">
-					<h4> Who You Are</h4>
-				</div>
-				<li>Dynamic, creative work atmosphere</li>
-			  <li>Looking to add a new player to your team</li>
-			</div>
-		  </div>
-		</div>
+		var sidebarVisible = false;
+		var currentPageID = "#tm-section-1";
 
-		<br>
-		<br>
-		<br>
+		// Setup Carousel
+		function setupCarousel() {
 
-		<h1><center>Connect</center></h1>
-					<h6><center><a href="https://github.com/mrachelle" id="portfolio">View my profile on Github</a><h6>
-		</center>
-			</div>
-			
-			
-			
-				<div="connect inline">
-				<center>
-		<!-- Button trigger modal -->
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-		Contact me
-		</button>
+			// If current page isn't Carousel page, don't do anything.
+			if($('#tm-section-2').css('display') == "none") {
+			}
+			else {	// If current page is Carousel page, set up the Carousel.
 
-		<!-- Modal -->
-		<div id="contact"><a href="#contact"></a>
-		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Get in touch with Rachelle</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				  <span aria-hidden="true">&times;</span>
-				</button>
-			  </div>
-			  <div class="modal-body">
-			  <strong> Email:</strong> MRachelleRaymundo@Gmail.com
-			  <br>
-			  <strong>Phone Number:</strong> 720-623-8003
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>
-			</div>
-			<br>
-</div>
-<!-- /body -->
+				var slider = $('.tm-img-slider');
+				var windowWidth = $(window).width();
 
-<!-- footer -->
+				if (slider.hasClass('slick-initialized')) {
+					slider.slick('destroy');
+				}
 
-<!-- /footer -->
+				if(windowWidth < 640) {
+					slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 1,
+	              		slidesToScroll: 1
+	              	});
+				}
+				else if(windowWidth < 992) {
+					slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 2,
+	              		slidesToScroll: 1
+	              	});
+				}
+				else {
+					// Slick carousel
+	              	slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 3,
+	              		slidesToScroll: 2
+	              	});
+				}
 
+				// Init Magnific Popup
+				$('.tm-img-slider').magnificPopup({
+				  delegate: 'a', // child items selector, by clicking on it popup will open
+				  type: 'image',
+				  gallery: {enabled:true}
+				  // other options
+				});
+      		}
+  		}
 
-					<!-- Optional JavaScript -->
-					<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  		// Setup Nav
+  		function setupNav() {
+  			// Add Event Listener to each Nav item
+	     	$(".tm-main-nav a").click(function(e){
+	     		e.preventDefault();
+		    	
+		    	var currentNavItem = $(this);
+		    	changePage(currentNavItem);
+		    	
+		    	setupCarousel();
+		    	setupFooter();
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+		    	// Hide the nav on mobile
+		    	$("#tmSideBar").removeClass("show");
+		    });	    
+  		}
+
+  		function changePage(currentNavItem) {
+  			// Update Nav items
+  			$(".tm-main-nav a").removeClass("active");
+     		currentNavItem.addClass("active");
+
+	    	$(currentPageID).hide();
+
+	    	// Show current page
+	    	currentPageID = currentNavItem.data("page");
+	    	$(currentPageID).fadeIn(1000);
+
+	    	// Change background image
+	    	var bgImg = currentNavItem.data("bgImg");
+	    	$.backstretch("img/" + bgImg);		    	
+  		}
+
+  		// Setup Nav Toggle Button
+  		function setupNavToggle() {
+
+			$("#tmMainNavToggle").on("click", function(){
+				$(".sidebar").toggleClass("show");
+			});
+  		}
+
+  		// If there is enough room, stick the footer at the bottom of page content.
+  		// If not, place it after the page content
+  		function setupFooter() {
+  			
+  			var padding = 100;
+  			var footerPadding = 40;
+  			var mainContent = $("section"+currentPageID);
+  			var mainContentHeight = mainContent.outerHeight(true);
+  			var footer = $(".footer-link");
+  			var footerHeight = footer.outerHeight(true);
+  			var totalPageHeight = mainContentHeight + footerHeight + footerPadding + padding;
+  			var windowHeight = $(window).height();		
+
+  			if(totalPageHeight > windowHeight){
+  				$(".tm-content").css("margin-bottom", footerHeight + footerPadding + "px");
+  				footer.css("bottom", footerHeight + "px");  			
+  			}
+  			else {
+  				$(".tm-content").css("margin-bottom", "0");
+  				footer.css("bottom", "20px");  				
+  			}  			
+  		}
+
+  		// Everything is loaded including images.
+      	$(window).on("load", function(){
+
+      		// Render the page on modern browser only.
+      		if(renderPage) {
+				// Remove loader
+		      	$('body').addClass('loaded');
+
+		      	// Page transition
+		      	var allPages = $(".tm-section");
+
+		      	// Handle click of "Continue", which changes to next page
+		      	// The link contains data-nav-link attribute, which holds the nav item ID
+		      	// Nav item ID is then used to access and trigger click on the corresponding nav item
+		      	var linkToAnotherPage = $("a.tm-btn[data-nav-link]");
+			    
+			    if(linkToAnotherPage != null) {
+			    	
+			    	linkToAnotherPage.on("click", function(){
+			    		var navItemToHighlight = linkToAnotherPage.data("navLink");
+			    		$("a" + navItemToHighlight).click();
+			    	});
+			    }
+		      	
+		      	// Hide all pages
+		      	allPages.hide();
+
+		      	$("#tm-section-1").fadeIn();
+
+		     	// Set up background first page
+		     	var bgImg = $("#tmNavLink1").data("bgImg");
+		     	
+		     	$.backstretch("img/" + bgImg, {fade: 500});
+
+		     	// Setup Carousel, Nav, and Nav Toggle
+			    setupCarousel();
+			    setupNav();
+			    setupNavToggle();
+			    setupFooter();
+
+			    // Resize Carousel upon window resize
+			    $(window).resize(function() {
+			    	setupCarousel();
+			    	setupFooter();
+			    });
+      		}	      	
+		});
+
+		</script>
+	</body>
 </html>
-		
+
