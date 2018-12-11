@@ -1,0 +1,61 @@
+
+
+#home {
+    background: url(../images/background.jpg) 100% 40%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    /*padding-top: 350px; /* this is space before the main title logo */
+    /**/ padding-bottom: 500px; /* this is space after the main title logo */
+    /* color: #fff;*/
+}
+
+
+
+#contact{
+	background-color: #f5f3f3;
+}
+
+
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 10px;
+    font-size: 20px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        color: #2196F3;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: #064579;
+        }
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+
+
+	
